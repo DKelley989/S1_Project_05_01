@@ -14,7 +14,7 @@
 */
 
 /* Window and Body Styles */
-/* These stlye affect the html and body elements */
+/* These style affect the html and body elements to change their widths and heights, and to align the body to the center of the page. */
 html {
     height: 100%;
 }
@@ -28,6 +28,7 @@ body {
     min-height: 100%;
 }
 
+/* Theses styles simply give a border box model to all header, navigation, unordered list, list items, anchor elements. */
 header,
 nav,
 ul,
@@ -139,7 +140,7 @@ ul#comments {
     display: block;
     width: 20%;
     float: left;
-    margin: 0 5% 0 5%;
+    margin: 0% 5% 0 5%;
 }
 
 /* Footer Styles */
