@@ -41,6 +41,7 @@ a {
 
 
 /* Row Styles */
+/* This style sets any element with the "row" class to clear both margins and display it as table with a content of none after the element.  */
 .row::after {
     clear: both;
     content: "";
@@ -51,6 +52,7 @@ a {
 
 
 /* Page Header Styles */
+/* These styles affect the page header and the image, navigation, and anchor elements within it to display them as block, float them in the left margin, set their widths, and give some padding to the nav. */
 header img {
     display: block;
     float: left;
@@ -72,6 +74,7 @@ header a {
 
 
 /* Horizontal Navigation List Styles */
+/* This style displays navigation list items with the class of "horizontal" as block, floats them left, and sets the width to 12.5%. */
 nav.horizontal li {
     display: block;
     float: left;
@@ -82,6 +85,7 @@ nav.horizontal li {
 
 
 /* Topics Styles */
+/* These styles affect elements with the ID of "topics" to change their display, widths, and margins. */
 ul#topics li {
     display: block;
     width: 20%;
@@ -105,6 +109,7 @@ ul#topics li {
 }
 
 /* HR Styles */
+/* This style just sets the width of horizontal rules to 50%. */
 hr {
     width: 50%;
 }
@@ -113,6 +118,7 @@ hr {
 
 
 /* Customer Comment Styles */
+/* These styles affect elements with the "comments" ID as well as elements nested within them to change their display, margins, and the way it is floated. */
 ul#comments {
     margin: 40px auto 40px auto;
     width: 75%;
@@ -144,6 +150,7 @@ ul#comments {
 }
 
 /* Footer Styles */
+/* This style simply tells the footer to clear all content in both margins. */
 footer {
     clear: both;
 }
